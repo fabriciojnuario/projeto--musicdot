@@ -1,19 +1,25 @@
 body{
     font-family: "Helvetica", "Lucida Grande", sans-serif;
     color: #3d3d3d;
-    width: 940px;
+    width: 80%;
+    max-width: 940px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 16px;
+    line-height: 1.5;
+
 }
 
-h1{
+.title{
     padding: 10px;
     background-color: #e1edf2;
 }
-h2{
+.subtitle{
     border-bottom: 2px solid black;
 }
 figure{
+    max-width: 100%;
+    box-sizing: border-box;
     margin: 30px;
     padding: 15px;
     text-align: center;
@@ -23,3 +29,85 @@ figure{
 figurecaption{
     margin-top: 10px;
 }
+.matriz-musicdot{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.familia-tupfeln{
+    width: 275px;
+    float: right;
+}
+figure img{
+    width: 100%;
+}
+
+.contact_subtitle{
+    display: inline;
+}
+.contact_info{
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+.contact_info-title,
+.contact_info-description{
+    display: inline;
+}
+.contact_info-description{
+    margin-left: 10px;
+}
+.contact_section{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+.contact_section_phone{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.footer{
+    padding: 1.75em 0;
+    font-size: 1.1rem;
+}
+.footer_logo{
+    width: 6em;
+}
+.footer_copyright{
+    display: inline;
+    margin-left: 1em;
+}
+
+@media (max-width: 850px) {
+    .contact_section{
+        display: block;
+        margin-left: 1em;
+    }
+}
+@media (max-width: 622px){
+    .familia-tupfeln{
+        float: none;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 446px){
+    .contact_subtitle{
+        display: block;
+        margin-bottom: 0;
+    }
+    .contact_info{
+        padding-left: 5 px;
+        font-size: 92em;
+        border-left: 2px solid lightgray;
+    }
+    .footer{
+        font-size: 92em;
+    }  
+}
+@media (max-width: 342px){
+    .contact_info{
+        display: block;
+        margin-left: 1em;
+    }
+}
+
