@@ -38,3 +38,20 @@
         background-color: transparent;
     }
 }
+@media(min-width: 770px){
+    .item-menu-header-register{
+        margin-left: 1.42em;
+        border-radius: 6px;
+        background-color: #e93d50;
+    }
+
+    .item-menu-header-register a{
+        padding: 1.8em 3.5em;
+    }
+}
+@media(min-width: 1066px){
+    .header{
+        padding-left: calc((100% - 960px)/2);
+        padding-right: calc((100% - 960px)/2) ;
+    }
+}
