@@ -1,0 +1,44 @@
+.footer{
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.logo_footer{
+    margin-bottom: 1em;
+    width: 11.25em;
+}
+
+.footer_social_media_list{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.footer_infos_company{
+    line-height: 1.5;
+}
+
+.footer_section + .footer_section{
+    margin-top: 2em;
+}
+
+.footer_social_media_item{
+    width: 2.62em;
+    margin: 0 .25%;
+}
+
+.footer_social_media_item img{
+    width: 100%;
+}
+
+.footer_titulo{
+    margin-bottom: 1em;
+    font-size: 1.45em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer_list_item{
+    font-weight: 500;
+    margin: 0.625em 0;
+}
